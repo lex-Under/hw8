@@ -1,0 +1,44 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Publisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Books" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Book" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Authors" minOccurs="1" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Author" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+							  <xs:attribute type="xs:string" name="name" use="required"/>
+							  <xs:attribute type="xs:date" name="birth" use="required"/>
+							  <xs:attribute type="xs:date" name="death" use="optional"/>
+							  <xs:attribute name="gender" use="required">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="male" />
+										<xs:enumeration value="female" />
+									</xs:restriction>
+								</xs:simpleType>
+							  </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="name" use="required"/>
+                  <xs:attribute type="xs:short" name="year" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

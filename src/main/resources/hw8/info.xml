@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Publisher name="Экспо">
+	<Books>
+		<Book name="Прогноз" year="1989">
+			<Authors>
+				<Author name="Аркадий Натанович Стругацкий"
+				birth="1925-08-28" death="1991-10-12"
+				gender="male"/>
+				<Author name="Борис Натанович Стругацкий"
+				birth="1933-04-15" death="2012-11-09"
+				gender="male"/>
+			</Authors>
+		</Book>
+		<Book name="Ничего нет прекрасней Земли..." year="1968">
+			<Authors>
+				<Author name="Аркадий Натанович Стругацкий"
+				birth="1925-08-28" death="1991-10-12"
+				gender="male"/>
+				<Author name="Иван Антонович Ефремов"
+				birth="1908-04-22" death="1972-10-05"
+				gender="male"/>
+			</Authors>
+		</Book>
+		<Book name="Лезвие бритвы" year="1964">
+			<Authors>
+				<Author name="Иван Антонович Ефремов"
+				birth="1908-04-22" death="1972-10-05"
+				gender="male"/>
+			</Authors>
+		</Book>
+		<Book name="Дьявол среди людей" year="1991">
+			<Authors>
+				<Author name="Аркадий Натанович Стругацкий"
+						birth="1925-08-28" death="1991-10-12"
+						gender="male"/>
+				<Author name="Борис Натанович Стругацкий"
+						birth="1933-04-15" death="2012-11-09"
+						gender="male"/>
+			</Authors>
+		</Book>
+		<Book name="Страна Фантазия" year="1970">
+			<Authors>
+				<Author name="Иван Антонович Ефремов"
+						birth="1908-04-22" death="1972-10-05"
+						gender="male"/>
+				<Author name="Вадим Константинович Гиткович"
+				birth="1924-07-06" death="1977-10-28"
+				gender="male"/>
+			</Authors>
+		</Book>
+		<Book name="Алхимик" year="1988">
+			<Authors>
+				<Author name="Пуало Коэльо"
+				birth="1947-08-24"
+				gender="male"/>
+			</Authors>
+		</Book>
+	</Books>
+</Publisher>
