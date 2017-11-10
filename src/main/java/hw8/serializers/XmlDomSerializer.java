@@ -138,6 +138,7 @@ public class XmlDomSerializer implements Serializer {
         for (Author a : authorsRead){
             if (a.equals(author)) return a;
         }
+        authorsRead.add(author);
         return author;
     }
 
